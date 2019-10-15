@@ -167,7 +167,6 @@ describe('Data Inputs', () => {
     it('Check Testing Intent', () => {
       const value = $$('td')[1].getText()
       assert.equal(value,'Testing Intent')
-      browser.reloadSession()
       browser.pause(1000)
     })
 
